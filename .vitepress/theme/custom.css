@@ -1,0 +1,11 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #0091ff, #6200ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+.VPFeatures .container {
+  max-width: 400px; /* adjust to your preference */
+}

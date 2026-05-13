@@ -9,7 +9,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
-      { text: 'CheatSheet', link: '/markdown-cheat-sheet.md'}
     ],
 
     sidebar: [
@@ -23,7 +22,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Minisdumb/Wiki' }
     ]
   }
 })
