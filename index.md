@@ -15,12 +15,8 @@ hero:
       link: /api-examples
 
 features:
-  - title: Roblox
+  - title: Roblox🕹️
     details: There is some Roblox games you can check out.
     link: https://www.roblox.com/users/1719651620/profile
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
