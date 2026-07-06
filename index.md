@@ -15,9 +15,9 @@ hero:
       link: /api-examples
 
 features:
-  - title: Github
-    details: Only this Project...
-    link: https://github.com/Minisdumb/Wiki
+  - title: Video Downloader
+    details: This is a video downloader made for Youtube using the yt-dlp module.
+    link: https://github.com/Minisdumb/Youtube-Downloader
     icon: 💻
 ---
 
