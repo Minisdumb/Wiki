@@ -8,15 +8,20 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Video and Audio',
+        items:[
+          { text: 'Video Downloader', link: '/Video-Downloader' },
+          { text: 'MP4 to MP3 Converter', link: '/MP4-to-MP3-Converter' }
+      ] },
+
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Video and Audio Processing',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Video Downloader', link: '/Video-Downloader' },
+          { text: 'MP4 to MP3 Converter', link: '/MP4-to-MP3-Converter' }
         ]
       }
     ],
