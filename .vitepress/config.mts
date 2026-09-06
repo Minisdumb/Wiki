@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Project Wiki",
-  description: "This is the Wiki, where i show of all the Projects i made!",
+  title: "Project Showcase",
+  description: "A Website Showcasing various Projects that I made.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -11,17 +11,20 @@ export default defineConfig({
       { text: 'Video and Audio',
         items:[
           { text: 'Video Downloader', link: '/Video-Downloader' },
-          { text: 'MP4 to MP3 Converter', link: '/MP4-to-MP3-Converter' }
+          { text: 'MP4 to MP3 Converter', link: '/MP4-to-MP3-Converter' },
+          { text: 'Music Controller', link: '/Music_Controller'}
       ] },
+      {text: 'Download', link:'https://github.com/Minisdumb'}
 
     ],
 
     sidebar: [
       {
-        text: 'Video and Audio Processing',
+        text: 'Media Processing',
         items: [
           { text: 'Video Downloader', link: '/Video-Downloader' },
-          { text: 'MP4 to MP3 Converter', link: '/MP4-to-MP3-Converter' }
+          { text: 'MP4 to MP3 Converter', link: '/MP4-to-MP3-Converter' },
+          { text: 'Music Controller', link: '/Music_Controller'}
         ]
       }
     ],
